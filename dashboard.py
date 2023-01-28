@@ -40,7 +40,7 @@ with home:
         data.append(chart)
 
     fig = go.Figure(data=data)
-    st.plotly_chart(fig, use_container_width=True, theme="streamlit")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 with compare:
